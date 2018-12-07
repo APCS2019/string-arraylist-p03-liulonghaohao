@@ -44,10 +44,11 @@ public class Word{
      */
     public static void scrambleOrRemove(List<String> wordList){
      for(i=0;i<wordList.size();i++){
-         if(scrambleWord(i).equals(wordList.get(i)){
-            wordList(i)=wordList(i+1);
+         if(！scrambleWord(i).equals(wordList.get(i)){
+           wordList.remove(i);
              i--}
             else{
+             wordList.set(i,scramble(wordList.get(i));   
 
     }
 
